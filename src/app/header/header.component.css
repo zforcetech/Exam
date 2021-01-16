@@ -1,11 +1,31 @@
 #upper-nav {
-    background-color: #00587a;
+    background-color: #214151;
 }
 
 a {
     color: #e7e7de;
+    font-family: 'Quicksand', sans-serif;
+    font-size: .75rem;
 }
 
 #my-brand {
+    font-family: 'Potta One', cursive;
+    font-size: 1.2rem;
+    color: #e7e7de;
+}
 
+@media (min-width: 992px){
+    #my-brand {
+        font-size: 2rem;
+    }
+    a {
+        font-size: 1.2rem;
+    }
+    li {
+        margin-left: 2rem;
+    }
+}
+
+.navbar-toggler-icon {
+    background-color: #e7e7de;
 }

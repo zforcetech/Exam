@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Exam';
+  contentPushed: boolean = false;
+  
+
+  updateTrigger() {
+    this.contentPushed = !this.contentPushed;
+  }
+
+  getNewStyle() {
+    if (this.contentPushed)
+      return "content-pushed";
+    else
+      return "";
+  }
+
 }
