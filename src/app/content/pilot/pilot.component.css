@@ -9,6 +9,12 @@
 }
 
 #pilot-holder {
-    overflow-y: scroll;
-    max-height: 75%;
+    /* overflow-y: scroll; */
+    /* max-height: 75%; */
+    height: auto;
+}
+
+.btn-holder {
+    /* height: 6.2%; */
+    height: auto;
 }

@@ -1,15 +1,27 @@
 
 .ques-nav {
-    margin: 3rem 1.5rem;
+    margin: 2rem 0;
+    height: auto;
     /* text-align: center; */
 }
 
 #left-nav {
     text-align: left;
+    height: auto;
+    padding: 0 0;
 }
 
 #right-nav {
-    text-align: right;
+    text-align: center;
+    height: auto;
+    padding: 0 0;
+}
+
+.carousel-inner {
+    height: auto;
+}
+.carousel-item {
+    height: auto;
 }
 
 
@@ -19,20 +31,46 @@
     height: 1.5rem;
     padding-top: 0px;
     padding-bottom: 0px;
+    margin-left: 2.5rem;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    /* color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc; */
+    box-shadow: 0 0 0 0 rgba(38,143,255,.5);
+}
+
+.btn.focus, .btn:focus {
+    /* outline: 0; */
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25);
 }
 
 
 @media (min-width: 992px) {
    
-.btn-ques-nav {
-    font-size: 1.15rem;
-    width: 5.5rem;
-    height: 2rem;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
+    .btn-ques-nav {
+        font-size: 1.15rem;
+        width: 5.5rem;
+        height: 2rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
 
-#right-nav {
-    right: 2.5rem;
-}
+    #right-nav {
+        /* right: 2.5rem; */
+        height: auto;
+        padding: 0 0;
+    }   
+
+    .carousel-inner {
+        height: auto;
+    }
+    .carousel-item {
+        height: auto;
+    }
+
+    .btn-ques-link{
+        margin-left: 2rem;
+    }
 }

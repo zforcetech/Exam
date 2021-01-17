@@ -4,6 +4,8 @@
     font-family: 'Nunito', sans-serif;
     margin-left: 0;
     margin-right: 0;
+    top: 4.62rem;
+    position: absolute;
 }
 
 #pilot{
@@ -12,7 +14,7 @@
 
 @media (min-width: 992px){
     #content {
-        background-color: yellow;
+        /* background-color: yellow; */
         height: auto;
         overflow-y: scroll;
         position: absolute;
@@ -21,9 +23,13 @@
     }
 
     #pilot{
-        /* display: block;
+        display: block;
         padding-right: 0px;
-        padding-left: 0px; */
+        padding-left: 0px;
+        top: 0;
+        bottom: 0;
+        overflow-y: scroll;
+        height: auto;
     }
 }
 
