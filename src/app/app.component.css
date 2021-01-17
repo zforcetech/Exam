@@ -15,3 +15,8 @@
     z-index: 1030;
 }
 
+#my-content{
+    height: 65%;
+    max-height: 65%;
+    overflow-y: scroll;
+}

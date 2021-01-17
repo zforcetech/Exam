@@ -1,7 +1,9 @@
 #content {
-    margin-top: 3.4rem;
-    margin-bottom: 3.5rem;
+    /* margin-top: 3.4rem;
+    margin-bottom: 3.5rem; */
     font-family: 'Nunito', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #pilot{
@@ -10,14 +12,18 @@
 
 @media (min-width: 992px){
     #content {
-        margin-top: 4.624rem;
-        margin-bottom: 4.624rem;
+        background-color: yellow;
+        height: auto;
+        overflow-y: scroll;
+        position: absolute;
+        top: 4.62rem;
+        bottom: 7.75rem;
     }
 
     #pilot{
-        display: block;
+        /* display: block;
         padding-right: 0px;
-        padding-left: 0px;
+        padding-left: 0px; */
     }
 }
 

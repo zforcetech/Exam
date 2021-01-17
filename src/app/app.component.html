@@ -1,5 +1,5 @@
-<div class="container-fluid">
+<div class="">
   <app-header id="header" (pushContentEmitter)="updateTrigger()"></app-header>
-  <app-content [pushContent]="getNewStyle()"></app-content>
+  <app-content id="my-content" [pushContent]="getNewStyle()"></app-content>
   <app-footer id="footer"></app-footer>
 </div>
