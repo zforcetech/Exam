@@ -1,0 +1,38 @@
+
+.ques-nav {
+    margin: 3rem 1.5rem;
+    /* text-align: center; */
+}
+
+#left-nav {
+    text-align: left;
+}
+
+#right-nav {
+    text-align: right;
+}
+
+
+.btn-ques-nav {
+    font-size: .75rem;
+    width: 3.5rem;
+    height: 1.5rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+@media (min-width: 992px) {
+   
+.btn-ques-nav {
+    font-size: 1.15rem;
+    width: 5.5rem;
+    height: 2rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#right-nav {
+    right: 2.5rem;
+}
+}

@@ -1,0 +1,77 @@
+
+.ques-statement {
+    margin: 1.5rem 1rem .5rem 1rem;
+    font-size: .9rem;
+}
+
+.separator {
+    margin: .75rem 1rem 1rem 1.5rem;
+}
+
+.ques-serial{
+
+}
+
+.ques-phrase {
+    
+}
+
+.ques-nav {
+    margin: 3rem 1.5rem;
+    /* text-align: center; */
+}
+
+#left-nav {
+    text-align: left;
+}
+
+#right-nav {
+    text-align: right;
+}
+
+.ques-radio-input {
+    bottom: 4px;
+}
+
+.btn-ques-nav {
+    font-size: .75rem;
+    width: 3.5rem;
+    height: 1.5rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.ques-options {
+    margin: .5rem 1.75rem;
+    font-size: .85rem;
+}
+
+
+@media (min-width: 992px) {
+    .ques-statement {
+        margin: 5.5rem 2.5rem 1.5rem 1.5rem;
+        font-size: 1.2rem;
+    }
+    
+    .separator {
+        margin: 1.75rem 5rem 2rem 1.5rem;
+    }
+
+    .ques-options {
+        margin: 1rem 2rem;
+    font-size: .9rem;
+    }
+
+
+.btn-ques-nav {
+    font-size: 1.15rem;
+    width: 5.5rem;
+    height: 2rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#right-nav {
+    right: 2.5rem;
+}
+}

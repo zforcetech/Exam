@@ -1,0 +1,37 @@
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
+    <!-- <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1" *ngFor="let problem of problemSet.problems"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol> -->
+    <!-- style="background-color: yellow;" -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <app-option [problem]="initialProblem"></app-option>
+        </div>
+        <div class="carousel-item" *ngFor="let problem of problemSet.problems | slice:1">
+            <app-option [problem]="problem"></app-option>
+            <!-- <img src="..." class="d-block w-100" alt="...">
+                <h5>{{problem.setCode}}</h5>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div> -->
+        </div>
+    </div>
+
+    <div class="row ques-nav">
+        <div class="col-6" id="left-nav">
+            <a class="" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <button type="button" value="" class="btn btn-primary btn-ques-nav">Back</button>
+            </a>
+        </div>
+
+        <div class="col-6" id="right-nav">
+            <a class="" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <button type="button" value="" class="btn btn-primary btn-ques-nav">Next</button>
+            </a>
+        </div>
+    </div>
+
+</div>

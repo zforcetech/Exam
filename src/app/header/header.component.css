@@ -29,3 +29,9 @@ a {
 .navbar-toggler-icon {
     background-color: #e7e7de;
 }
+
+#menu-button{
+    color: #e7e7de;
+    font-size: 1rem;
+
+}
