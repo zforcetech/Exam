@@ -4,10 +4,20 @@
     font-family: 'Nunito', sans-serif;
 }
 
+#pilot{
+    display: none;
+}
+
 @media (min-width: 992px){
     #content {
         margin-top: 4.624rem;
         margin-bottom: 4.624rem;
+    }
+
+    #pilot{
+        display: block;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 }
 

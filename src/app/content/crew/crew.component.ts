@@ -16,6 +16,5 @@ export class CrewComponent implements OnInit {
 
   problemSet: ProblemSet = new ProblemSet();
   initialProblem: Problem = new ProblemSet().getProblems()[0];
-  date: number = Date.now();
 
 }
